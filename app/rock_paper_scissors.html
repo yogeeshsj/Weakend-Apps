@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors | Yogeesh</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/rock_paper_scissors.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/analytics.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/rock_paper_scissors.js"></script>
+  <!--[if IE]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body id="rock_paper_scissors">
+
+  <div id="container">
+    <div class="player" id="computer_container">
+      <div class="title" id="computer_title">Computer</div>
+
+      <div class="hand_container" id="left_hand_container">
+        <img class="fist left hand" src="images/left_fist.png">
+        <img class="result left rock" src="images/rock.png" style="display:none">
+        <img class="result left paper" src="images/paper.png" style="display:none">
+        <img class="result left scissors" src="images/scissors.png" style="display:none">
+      </div>
+
+    </div>
+
+    <div id="score_container">Choose your weapon</div>
+
+    <div class="player" id="human_container">
+      <div class="title" id="computer_title">You</div>
+
+      <div class="hand_container" id="right_hand_container">
+        <img class="fist right hand" src="images/right_fist.png">
+        <img class="result right rock" src="images/rock.png" style="display:none">
+        <img class="result right paper" src="images/paper.png" style="display:none">
+        <img class="result right scissors" src="images/scissors.png" style="display:none">
+      </div>
+
+      <div id="btn_container">
+        <div class="button clickable" id="rock">rock</div>
+        <div class="button clickable" id="paper">paper</div>
+        <div class="button clickable" id="scissors">scissors</div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer>
+
+  </footer>
+
+</body>
+</html>

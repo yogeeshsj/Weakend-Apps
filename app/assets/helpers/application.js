@@ -1,0 +1,1 @@
+function render(t,e){return JST["templates/"+t](e)}

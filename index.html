@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Weakend Apps | By YOGEEHS S J</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta name="description" content="A handful of nice examples showcasing what i made it on Weakend Apps | By YOGEEHS S J">
+
+    <!-- All CSS importanted in screen CSS -->
+    <link rel="stylesheet" href="css/screen.css">
+    
+    <!-- JQuery Framework -->
+    <script src="js/jquery.min.js"></script>
+
+
+    <!-- MegaFooter JS -->
+    <script src="js/megafooter.js"></script>
+
+    <!-- PWA Setup -->
+    <link rel="manifest" href="pwa.webmanifest">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="228x228" href="images/icon-228x228.png">
+    <link rel="apple-touch-icon" type="image/png" href="images/icon-228x228.png">
+    <link rel="canonical" href="https://yogeesh.in/">
+
+  <!--[if IE]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+    <div id="page">
+        <header class="header">
+            <h1 class="header__title">
+			Weakend Apps
+		</h1>
+        </header>
+
+        <nav class="tags">
+
+        <h2 class="tags__title hidden">
+			Tags
+		</h2>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="all" checked id="tags-all">
+            <label class="tags__label" for="tags-all">
+                All
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="game" id="tags-game">
+            <label class="tags__label" for="tags-game">
+                Game
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="application" id="tags-application">
+            <label class="tags__label" for="tags-application">
+                Application
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="creativity" id="tags-creativity">
+            <label class="tags__label" for="tags-creativity">
+                Creativity
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="crazy" id="tags-crazy">
+            <label class="tags__label" for="tags-crazy">
+                Crazy
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="fun" id="tags-fun">
+            <label class="tags__label" for="tags-fun">
+                Fun
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="challenge" id="tags-challenge">
+            <label class="tags__label" for="tags-challenge">
+                Challenge
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="tool" id="tags-tool">
+            <label class="tags__label" for="tags-tool">
+                Tool
+            </label>
+
+            <input class="tags__radio hidden js-tag" type="radio" name="tag" value="other" id="tags-other">
+            <label class="tags__label" for="tags-other">
+                Other
+            </label>
+
+        </nav>
+
+        <main class="list js-list" data-filter="all">
+
+            <a class="list__item app js-app" href="app/make_a_deal.html" target="blank" data-app="make_a_deal" data-tags="challenge">
+                <style>
+                    [data-app='make_a_deal'] {
+                        color: #1194f6;
+                        background: currentColor url(app/images/green_door.png) 50% 50% / 46% auto no-repeat;
+                    }
+                </style>
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Make A Deal
+				</h2>
+                </div>
+            </a>
+
+            <a class="list__item app js-app" href="app/random_background.html" target="blank" data-app="random_background" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Random Background
+				</h2>
+                </div>
+                <style>
+                    [data-app='random_background'] {
+                        color: #f73f16;
+                        background: currentColor url(apps/111.png) 50% 55% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/mondrian.html" target="blank" data-app="mondrian" data-tags="fun crazy">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Paint a Mondrian
+				</h2>
+                </div>
+                <style>
+                    [data-app='mondrian'] {
+                        color: #f90;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 80% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/secret_message.html" target="blank" data-app="secret_message" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Secret Message
+				</h2>
+                </div>
+                <style>
+                    [data-app='secret_message'] {
+                        color: #ffd200;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 75% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/day_tracker.html" target="blank" data-app="day_tracker" data-tags="tool application">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Day Tracker
+				</h2>
+                </div>
+                <style>
+                    [data-app='day_tracker'] {
+                        color: #3d82f7;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 82% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/technicolor_boxes.html" target="blank" data-app="technicolor_boxes" data-tags="crazy fun creativity">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Technicolor Boxes
+				</h2>
+                </div>
+                <style>
+                    [data-app='technicolor_boxes'] {
+                        color: #fff;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 70% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/more_drop_shadow.html" target="blank" data-app="more_drop_shadow" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					More Drop Shadow!
+				</h2>
+                </div>
+                <style>
+                    [data-app='more_drop_shadow'] {
+                        color: #0275d8;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/bouncing_ball.html" target="blank" data-app="bouncing_ball" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Bouncing Ball
+				</h2>
+                </div>
+                <style>
+                    [data-app='bouncing_ball'] {
+                        color: #fff;
+                        background: currentColor url(apps/111.png) 50% 50% / 45% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/sushi_jiggler.html" target="blank" data-app="sushi_jiggler" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Sushi Jiggler
+				</h2>
+                </div>
+                <style>
+                    [data-app='sushi_jiggler'] {
+                        color: #e1bee7;
+                        background: currentColor url(apps/111.png) 50% 50% / 45% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/color_clock.html" target="blank" data-app="color_clock" data-tags="crazy creativity">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Color Clock
+				</h2>
+                </div>
+                <style>
+                    [data-app='color_clock'] {
+                        color: #33383a;
+                        background: currentColor url(apps/111.png) 50% 45% / 55% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/dice_roller.html" target="blank" data-app="dice_roller" data-tags="game application tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Dice Roller
+				</h2>
+                </div>
+                <style>
+                    [data-app='dice_roller'] {
+                        color: #fff1e0;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/rock_paper_scissors.html" target="blank" data-app="rock_paper_scissors" data-tags="game challenge">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Rock Paper Scissors
+				</h2>
+                </div>
+                <style>
+                    [data-app='rock_paper_scissors'] {
+                        color: #005da5;
+                        background: currentColor url(apps/111.png) 50% 60% / auto 75% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/tough_love.html" target="blank" data-app="tough_love" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Tough Love
+				</h2>
+                </div>
+                <style>
+                    [data-app='tough_love'] {
+                        color: #cd0000;
+                        background: currentColor url(apps/111.png) 50% 50% / 38% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/dropping_boxes.html" target="blank" data-app="dropping_boxes" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Dropping Boxes
+				</h2>
+                </div>
+                <style>
+                    [data-app='dropping_boxes'] {
+                        color: #007ad8;
+                        background: currentColor url(apps/111.png) 50% 50% / 38% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/caterpillar.html" target="blank" data-app="caterpillar" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Caterpillar
+				</h2>
+                </div>
+                <style>
+                    [data-app='caterpillar'] {
+                        color: #093777;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 60% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/party_time.html" target="blank" data-app="party_time" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Party Time?
+				</h2>
+                </div>
+                <style>
+                    [data-app='party_time'] {
+                        color: #7c7171;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/building_blocks.html" target="blank" data-app="building_blocks" data-tags="creativity crazy fun tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Building Blocks
+				</h2>
+                </div>
+                <style>
+                    [data-app='building_blocks'] {
+                        color: #77909d;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/hipster_quiz.html" target="blank" data-app="hipster_quiz" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					How Much of Hipster are You?
+				</h2>
+                </div>
+                <style>
+                    [data-app='hipster_quiz'] {
+                        color: #36474f;
+                        background: currentColor url(apps/111.png) 50% 50% / 46% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/smushing_fireflies.html" target="blank" data-app="smushing_fireflies" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Smushing Fireflies
+				</h2>
+                </div>
+                <style>
+                    [data-app='smushing_fireflies'] {
+                        color: #34495e;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 65% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/teleprompter.html" target="blank" data-app="teleprompter" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Teleprompter
+				</h2>
+                </div>
+                <style>
+                    [data-app='teleprompter'] {
+                        color: #0e161c;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 65% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/keep_it_straight.html" target="blank" data-app="keep_it_straight" data-tags="game creativity">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Keep It Straight
+				</h2>
+                </div>
+                <style>
+                    [data-app='keep_it_straight'] {
+                        color: #cbdea8;
+                        background: currentColor url(apps/111.png) 50% 50% / 55% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/stopwatch.html" target="blank" data-app="stopwatch" data-tags="application tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Stopwatch
+				</h2>
+                </div>
+                <style>
+                    [data-app='stopwatch'] {
+                        color: #335C88;
+                        background: currentColor url(apps/111.png) 50% 50% / 38% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/email_impact.html" target="blank" data-app="email_impact" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					What is Your Email's Impact?
+				</h2>
+                </div>
+                <style>
+                    [data-app='email_impact'] {
+                        color: #03a9f4;
+                        background: currentColor url(apps/111.png) 50% 50% / 46% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/scrambled.html" target="blank" data-app="scrambled" data-tags="game fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					SCRAMBLED!
+				</h2>
+                </div>
+                <style>
+                    [data-app='scrambled'] {
+                        color: #f3fafd;
+                        background: currentColor url(apps/111.png) 50% 50% / 45% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/simon.html" target="blank" data-app="simon" data-tags="game creativity">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Simon
+				</h2>
+                </div>
+                <style>
+                    [data-app='simon'] {
+                        color: #8aaedb;
+                        background: linear-gradient(45deg, #89c6e1, #8a95d5);
+                    }
+                    
+                    [data-app='simon']::before {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin: -23% 0 0 -23%;
+                        width: 46%;
+                        height: 0;
+                        padding-bottom: 46%;
+                        border-radius: 50%;
+                        background: url(apps/111.png) no-repeat, #9699d8;
+                        box-shadow: 0 0 50px #acffef;
+                        content: '';
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/rain_maker.html" target="blank" data-app="rain_maker" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Rain Maker
+				</h2>
+                </div>
+                <style>
+                    [data-app='rain_maker'] {
+                        color: #222;
+                        background: #212121 url(apps/111.png) 50% 50% / auto 75% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/click_challenge.html" target="blank" data-app="click_challenge" data-tags="game challenge">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					The Click Challenge
+				</h2>
+                </div>
+                <style>
+                    [data-app='click_challenge'] {
+                        color: #8f52ff;
+                        background: url(apps/111.png) 50% 50% / 50% auto no-repeat, linear-gradient(300deg, #7f4fff, #9e54ff), currentColor
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/silly_kitty.html" target="blank" data-app="silly_kitty" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Silly Kitty
+				</h2>
+                </div>
+                <style>
+                    [data-app='silly_kitty'] {
+                        color: #78c850;
+                        background: url(apps/111.png) 50% 50% / 50% auto no-repeat, linear-gradient(to right, #78c850 50%, #a040a0 50%) currentColor;
+                        image-rendering: pixelated;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/endless_throbbers.html" target="blank" data-app="endless_throbbers" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Endless Throbbers
+				</h2>
+                </div>
+                <style>
+                    [data-app='endless_throbbers'] {
+                        color: #e8372d;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/particle_waves.html" target="blank" data-app="particle_waves" data-tags="application tool creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Particle Waves
+				</h2>
+                </div>
+                <style>
+                    [data-app='particle_waves'] {
+                        color: #ffe400;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 70% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/random_word.html" target="blank" data-app="random_word" data-tags="application creativity tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Random Word Generator
+				</h2>
+                </div>
+                <style>
+                    [data-app='random_word'] {
+                        color: #edc500;
+                        background: currentColor url(apps/111.png) 50% 50% / 65% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/lucky_cat.html" target="blank" data-app="reacthn" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Maneki-neko
+				</h2>
+                </div>
+                <style>
+                    [data-app='reacthn'] {
+                        color: #00d8ff;
+                        background: currentColor url(apps/111.png) 50% 50% / 42% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/buttons.html" target="blank" data-app="buttons" data-tags="game creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Buttons!
+				</h2>
+                </div>
+                <style>
+                    [data-app='buttons'] {
+                        color: #1c92c8;
+                        background: currentColor url(apps/111.png) 50% 50% / 80% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/little_dude.html" target="blank" data-app="little_dude" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Little Dude
+				</h2>
+                </div>
+                <style>
+                    [data-app='little_dude'] {
+                        color: #5f7d8c;
+                        background: currentColor url(apps/111.png) 50% 50% / 40% auto no-repeat;
+                        image-rendering: pixelated;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/bouncy_balls.html" target="blank" data-app="bouncy_balls" data-tags="creativity crazy fun tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Bouncy Balls
+				</h2>
+                </div>
+                <style>
+                    [data-app='bouncy_balls'] {
+                        color: #212121;
+                        background: currentColor url(apps/111.png) 50% 50% / 46% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/type_attack.html" target="blank" data-app="type_attack" data-tags="game crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Type Attack
+				</h2>
+                </div>
+                <style>
+                    [data-app='type_attack'] {
+                        color: #fafafa;
+                        background: currentColor url(apps/111.png) 50% 50% / 46% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/pixel_painter.html" target="blank" data-app="soundslice" data-tags="application tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Pixel Painter
+				</h2>
+                </div>
+                <style>
+                    [data-app='soundslice'] {
+                        color: #60506f;
+                        background: currentColor url(apps/111.png) 50% 50% / 45% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/popping_bubbles.html" target="blank" data-app="popping_bubbles" data-tags="creativity crazy">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Popping Bubbles
+				</h2>
+                </div>
+                <style>
+                    [data-app='popping_bubbles'] {
+                        color: #eceff1;
+                        background: currentColor url(apps/111.png) 50% 50% / 45% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/light_bulb.html" target="blank" data-app="light_bulb" data-tags="application creativity">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Light Bulb
+				</h2>
+                </div>
+                <style>
+                    [data-app='light_bulb'] {
+                        color: #f2f2f2;
+                        background: url(apps/111.png) 50% 50% / 50% auto no-repeat, linear-gradient(45deg, #e6e6e6 25%, transparent 25%, transparent 75%, #e6e6e6 75%, #e6e6e6) 0 0 / 20px 20px, linear-gradient(45deg, #e6e6e6 25%, transparent 25%, transparent 75%, #e6e6e6 75%, #e6e6e6) 10px 10px / 20px 20px, currentColor;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/magnetic_poetry.html" target="blank" data-app="magnetic_poetry" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Magnetic Poetry
+				</h2>
+                </div>
+                <style>
+                    [data-app='magnetic_poetry'] {
+                        color: #e7ebf0;
+                        background: currentColor url(apps/111.png) 50% 50% / 46% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/seeing_spots.html" target="blank" data-app="seeing_spots" data-tags="game tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Seeing Spots
+				</h2>
+                </div>
+                <style>
+                    [data-app='seeing_spots'] {
+                        color: #a00f1d;
+                        background: url(apps/111.png) 50% 50% / auto 75% no-repeat, linear-gradient(to bottom, #df1c1e, #a00f1d) currentColor;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/analog_clock.html" target="blank" data-app="analog_clock" data-tags="application tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Analog Clock
+				</h2>
+                </div>
+                <style>
+                    [data-app='analog_clock'] {
+                        color: #ddaf49;
+                        background: url(apps/111.png) 52% 50% / 70% auto no-repeat;
+                    }
+                    
+                    [data-app='analog_clock']::before {
+                        position: absolute;
+                        z-index: -1;
+                        top: 10px;
+                        right: 10px;
+                        bottom: 10px;
+                        left: 10px;
+                        border: 1px dashed #C93;
+                        background: linear-gradient(#eb2, #da1);
+                        box-shadow: 10px 10px 0 #E5B219, -10px 10px 0 #E5B219, -10px -10px 0 #E5B219, 10px -10px 0 #E5B219;
+                        content: '';
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/color_test.html" target="blank" data-app="color_test" data-tags="application tool game challenge">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Color Perception Test
+				</h2>
+                </div>
+                <style>
+                    [data-app='color_test'] {
+                        color: #673ab7;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 80% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/snake_game.html" target="blank" data-app="snake_game" data-tags="game challenge">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Snake
+				</h2>
+                </div>
+                <style>
+                    [data-app='snake_game'] {
+                        color: #191622;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 70% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/pong.html" target="blank" data-app="pong" data-tags="game challenge">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					PONG
+				</h2>
+                </div>
+                <style>
+                    [data-app='pong'] {
+                        color: #eef0ed;
+                        background: url(apps/111.png) 50% 50% / 55% auto no-repeat, linear-gradient(to bottom, #fefffc, #dfe1de) currentColor;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/static.html" target="blank" data-app="static" data-tags="crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Static
+				</h2>
+                </div>
+                <style>
+                    [data-app='static'] {
+                        color: #6cc851;
+                        background: url(apps/111.png) 50% 50% / 50% auto no-repeat, currentColor;
+                        image-rendering: pixelated;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/weather_now.html" target="blank" data-app="weather_now" data-tags="application tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Weather Now
+				</h2>
+                </div>
+                <style>
+                    [data-app='weather_now'] {
+                        color: #987FFF;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/color_war.html" target="blank" data-app="color_war" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Color War
+				</h2>
+                </div>
+                <style>
+                    [data-app='color_war'] {
+                        color: #ffc107;
+                        background: currentColor url(apps/111.png) 50% 50% / auto 75% no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/memory.html" target="blank" data-app="memory" data-tags="game challenge">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Memory
+				</h2>
+                </div>
+                <style>
+                    [data-app='memory'] {
+                        color: #eceff1;
+                        background: currentColor url(apps/111.png) 50% 50% / 70% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/etch_a_sketch.html" target="blank" data-app="etch_a_sketch" data-tags="game creativity application">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Etch A Sketch
+				</h2>
+                </div>
+                <style>
+                    [data-app='etch_a_sketch'] {
+                        color: #456BD9;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/circle_invaders.html" target="blank" data-app="circle_invaders" data-tags="game creativity">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Circle Invaders
+				</h2>
+                </div>
+                <style>
+                    [data-app='circle_invaders'] {
+                        color: #050D1A;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/calculator.html" target="blank" data-app="calculator" data-tags="application tool">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Calculator
+				</h2>
+                </div>
+                <style>
+                    [data-app='calculator'] {
+                        color: #5F7995;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/paratroopers.html" target="blank" data-app="paratroopers" data-tags="game">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Paratroopers
+				</h2>
+                </div>
+                <style>
+                    [data-app='paratroopers'] {
+                        color: #987FFF;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/hooray.html" target="blank" data-app="hooray" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Hooray
+				</h2>
+                </div>
+                <style>
+                    [data-app='hooray'] {
+                        color: #F1C40F;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/bug_blaster.html" target="blank" data-app="bug_blaster" data-tags="game creativity crazy">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Bug Blaster
+				</h2>
+                </div>
+                <style>
+                    [data-app='bug_blaster'] {
+                        color: #192f5d;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/fireworks.html" target="blank" data-app="fireworks" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Fireworks
+				</h2>
+                </div>
+                <style>
+                    [data-app='fireworks'] {
+                        color: #8E44AD;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/bubble_wrap.html" target="blank" data-app="bubble_wrap" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Bubble Wrap
+				</h2>
+                </div>
+                <style>
+                    [data-app='bubble_wrap'] {
+                        color: #FA9237;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/fizz_buzz.html" target="blank" data-app="fizz_buzz" data-tags="game challenge">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Fizz Buzz
+				</h2>
+                </div>
+                <style>
+                    [data-app='fizz_buzz'] {
+                        color: #2ECC71;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+            <a class="list__item app js-app" href="app/fix_it.html" target="blank" data-app="fix_it" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Fix It
+				</h2>
+                </div>
+                <style>
+                    [data-app='fix_it'] {
+                        color: #FF5733;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/confused_robot.html" target="blank" data-app="confused_robot" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Confused Robot
+				</h2>
+                </div>
+                <style>
+                    [data-app='confused_robot'] {
+                        color: #FE00A7;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/memory_orbs.html" target="blank" data-app="memory_orbs" data-tags="game challenge creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Memory Orbs
+				</h2>
+                </div>
+                <style>
+                    [data-app='memory_orbs'] {
+                        color: #D10773;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/screen_flood.html" target="blank" data-app="screen_flood" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Screen Flood
+				</h2>
+                </div>
+                <style>
+                    [data-app='screen_flood'] {
+                        color: #0DDE2C;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/fade.html" target="blank" data-app="fade" data-tags="creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Fade
+				</h2>
+                </div>
+                <style>
+                    [data-app='fade'] {
+                        color: #A45BD4;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/alien_attack.html" target="blank" data-app="alien_attack" data-tags="game creativity crazy fun">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					 Alien Attack
+				</h2>
+                </div>
+                <style>
+                    [data-app='alien_attack'] {
+                        color: #192f5d;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/world_time.html" target="blank" data-app="world_time" data-tags="application tool creativity">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					World Time
+				</h2>
+                </div>
+                <style>
+                    [data-app='world_time'] {
+                        color: #F75B13;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item app js-app" href="app/metronome.html" target="blank" data-app="metronome" data-tags="creativity crazy fun tool application">
+                <div class="app__wrapper">
+                    <h2 class="app__title">
+					Metronome
+				</h2>
+                </div>
+                <style>
+                    [data-app='metronome'] {
+                        color: #D5F713;
+                        background: currentColor url(apps/111.png) 50% 50% / 50% auto no-repeat;
+                    }
+                </style>
+            </a>
+
+            <a class="list__item suggest js-suggest" href="https://github.com/yogeeshsj" title="Suggest an app" target="blank">
+                <span class="hidden">Suggest an app</span>
+            </a>
+
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <!-- Megafooter Code comes here -->
+    <section id="megafooter">
+        <section id="subfooter">
+
+            <div class="copyright">
+                <div class="copyright_text"><a href="http://yogeesh.in/" target="_blank">© WWW.YOGEESH.IN</a></div>
+            </div>
+            <div class="footer_right">
+                <ul class="footer_nav">
+                    <li class="trans"><span class="share-blink"></span>About ME<span class="nav_icon trans"></span></li>
+                    <span class="fullscreen_icon trans"></span>
+                </ul>
+
+            </div>
+        </section>
+        <div class="about_container trans">
+            <div class="author_container">
+                <div class="close_btn trans"></div>
+                <div class="author_pic"><img src="images/megafooter/yogeeshsj.jpg"></div>
+                <div class="author_msg">“ Hi...I am a <span>Software Engineer</span> based in <span>Bengaluru</span>, and in <span>Love</span> with the city of <span>Bengaluru</span>. In my recent visit, I tried to capture the extraordinary in every ordinary.”</div>
+                <div class="social_links">
+                    <ul>
+                        <li class="facebook trans">
+                            <a href="https://web.facebook.com/yogeeshsj" target="_blank"></a>
+                        </li>
+                        <li class="twitter trans">
+                            <a href="https://twitter.com/yogeeshsj" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="more_xp">
+                <div class="xp_text"> <span>More by Yogeesh</span>
+                    <div class="xp_border"></div>
+                </div>
+                <ul>
+
+                    <li class="trans">
+                        <a href="url link" target="_blank">
+                            <div class="project_thumb">
+                                <div class="project_thumb_image"><img src="images/megafooter/more/coming1.gif" class="trans"></div>
+                                <div class="project_thumb_text">Coming soon........
+                                    <div class="tags">Please wait</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="trans">
+                        <a href="url link/" target="_blank">
+                            <div class="project_thumb">
+                                <div class="project_thumb_image"><img src="images/megafooter/more/coming2.jpg" class="trans"></div>
+                                <div class="project_thumb_text">Coming soon........
+                                    <div class="tags">Please wait</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="trans">
+                        <a href="url link" target="_blank">
+                            <div class="project_thumb">
+                                <div class="project_thumb_image"><img src="images/megafooter/more/coming3.gif" class="trans"></div>
+                                <div class="project_thumb_text">Coming soon........
+                                    <div class="tags">Please wait</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="trans">
+                        <a href="url link" target="_blank">
+                            <div class="project_thumb">
+                                <div class="project_thumb_image"><img src="images/megafooter/more/coming3.gif" class="trans"></div>
+                                <div class="project_thumb_text">Coming soon........
+                                    <div class="tags">Please wait</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
